@@ -1,0 +1,79 @@
+body {
+  font-family: 'Times New Roman', serif, sans-serif; /* Set a simple font */
+  margin: 20px; /* Add margin to the body */
+}
+
+h3 {
+  margin-bottom: 10px; /* Space below headings */
+}
+
+form {
+  max-width: 400px; /* Limit form width */
+  margin: 20px auto; /* Center the form */
+  padding: 15px; /* Add padding */
+  border: 1px solid #ccc; /* Border around the form */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+label {
+  display: block; /* Labels as block elements */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select {
+  width: calc(100% - 10px); /* Full width minus padding */
+  padding: 5px; /* Padding inside input fields */
+  margin-bottom: 15px; /* Space below each input */
+  border: 1px solid #ccc; /* Border style */
+  border-radius: 3px; /* Rounded corners */
+  font-size: 0.9em; /* Slightly smaller font */
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Button font size */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Merge borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+  padding: 8px; /* Padding inside table cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Light border */
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+.action-links {
+  text-align: center; /* Center action links */
+}
+
+.action-links a {
+  margin: 0 5px; /* Space between links */
+  text-decoration: none; /* Remove underline */
+  color: #007bff; /* Link color */
+}
+
+.action-links a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
